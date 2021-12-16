@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
+    <title>Magic 8 Ball</title>
+
+</head>
+<body> 
+  <header> 
+   <h1 class="title"> Magic 8 <span class="title__color">Ball</span> </h1>
+  </header> 
+  <div class="page__container">
+    <div class="question__input__container">
+   
+      <div><label class="lable" for=>Ask me anything!</label></div>
+      <div class="input__container"><input class= "input"type="text"></div>
+      <h3 class="error__msg"></h3>
+      <button class="button">Ask</button>
+
+  
+    </div>
+    <div class="wrapper">
+        <div class="question__display"></div>
+        <div id="answers" class="pic">
+            <div class="answer__text"></div>
+            
+        </div>
+        <div class="answer__type"></div>
+        <button class="button" id="reload">Ask again</button>
+     </div>
+ 
+  </div>
+</body>
+</html>

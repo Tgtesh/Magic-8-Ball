@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+  font-size: 35px;
+  text-align: center;
+  color: rgb(51, 41, 131);
+ padding: 10px;
+}
+.title__color{
+  color: red;
+}
+.page__container{
+    width: 70%;
+    display: flex;
+   margin: auto;
+   background-color:slategrey;
+ height:750px;
+ border-radius: 10px;
+ 
+}
+.question__input__container{
+  border-radius: 10px;
+    text-align: center;
+   color: white;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin:auto; */
+  padding: 10px;
+}
+.wrapper{
+
+ 
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* padding: 30px; */
+  
+}
+.input__container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    /* margin-top: 100px; */
+}
+input{
+  background-color: rgb(51, 41, 131);
+width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fbfbfb;
+  border: 0.5px solid #616161;
+  /* box-shadow: 10px 10px 30px rgb(115, 117, 117), -10px -10px 40px rgb(32, 26, 26); */
+  margin: 20px 0;
+}
+.lable{
+    font-size: 30px;
+    font-weight: 700;
+    color:  rgb(51, 41, 131);
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.button{
+    padding: 5px;
+color: white;
+border-radius: 10px;
+font-size: 20px;
+background-color: rgb(51, 41, 131);
+border: none;
+padding: 10px;
+width:200px;
+
+}
+#answers{
+    height: 500px;
+    width: 500px;
+      background-image: url('../images/Magic_eight_ball.png');
+background-position: center;
+background-repeat: no-repeat;
+  background-size: cover;
+text-align: center;
+   
+    
+}
+
+.answers {
+    animation: shake 1s;
+    animation-iteration-count:calc(50s);
+  }
+  
+  @keyframes shake  {
+    0% { transform: translate(3px, 3px) rotate(1deg); }
+    10% { transform: translate(-3px, -4px) rotate(-2deg); }
+    20% { transform: translate(-6px, 3px) rotate(2deg); }
+    30% { transform: translate(6px, 3px) rotate(1deg); }
+    40% { transform: translate(3px, -3px) rotate(2deg); }
+    50% { transform: translate(-3px, 4px) rotate(-2deg); }
+    60% { transform: translate(-6px, 3px) rotate(1deg); }
+    70% { transform: translate(6px, 3px) rotate(-2deg); }
+    80% { transform: translate(-3px, -3px) rotate(2deg); }
+    90% { transform: translate(3px, 6px) rotate(5deg); }
+    100% { transform: translate(3px, -4px) rotate(-5deg); }
+  }
+
+ .fade-in-image {
+       animation: fadeIn 2s;
+       -webkit-animation: fadeIn 2s;
+       -moz-animation: fadeIn 2s;
+       -o-animation: fadeIn 2s;
+       -ms-animation: fadeIn 2s;
+     }
+    @keyframes fadeIn {
+       0% {opacity:0;}
+       100% {opacity:1;}
+     }
+    
+.question__display{
+  color:white;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 600;
+}
+.button2{
+    margin: 200px 150px;
+}
+.answer__text{
+    margin: auto;
+text-align: center;
+    width: 80px;
+    color: white;
+    padding-top: 220px;
+    font-size: 20px;
+   
+}
+.answer__type{
+  color:white;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+#reload{
+  display: none;
+}
+.error__msg{
+  color:red;
+  font-size:30px;
+}
+
+
