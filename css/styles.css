@@ -167,5 +167,22 @@ text-align: center;
   color:red;
   font-size:30px;
 }
-
+@media only screen and (max-width:1000px) {
+ body{
+  background-color: slategrey;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ }
+ .page__container{
+ 
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ header{
+   font-size: 20px;
+ }
+}
 
